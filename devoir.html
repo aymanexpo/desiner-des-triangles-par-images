@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aymane Talibi _ 3IIR2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body background="car.jpg">
+  <hr size="5" color="#B9B4B4">
+  <center><p> <b><font color="#B9B4B4"><h1> Devoir -Formulaire PHP </h1></b></font></p></center>
+  <hr size="5" color="#B9B4B4">
+  <style type="text/css">
+    div{
+      position: absolute;
+      left: 30%;
+      top: 25%;
+      transform: translate(-50%;-50%);
+      border: 2px solid #434143;
+      width: 650px;
+      height:  350px;
+      text-align: center;
+    }
+    #button{
+      background-color: #AB9393;
+    }
+  </style>
+    <div>
+      <form action="resultat.php" method="post">
+      <label><font size="8" color="#644C4C">Nombre de lignes : </font></label>
+      <input type="number" name="nombre" min="0">
+        <br><br>
+      <label><font size="8" color="#644C4C">Motif : </font></label>
+      <select name="choixx">
+        <option value="Carre" selected>Carre</option>
+        <option value="Etoile">Etoile</option>
+      </select>
+        <br><br>
+        <label for="selection"><font size="8" color="#644C4C">Alignement : </font></label>
+          <input type="radio" name="selection" value="gauche">
+          <label>Gauche</label>
+          <input type="radio" name="selection" value="droite">
+          <label>Droite</label>
+          <input type="radio" name="selection" value="pyramide">
+          <label>Pyramide</label>
+          <input type="radio" name="selection" value="inversee">
+          <label>Inversee</label>
+        <br><br>
+        <input type="submit" id="button" value="Envoyer" >
+      </form>
+    </div>
+    <h1><font size="8" color="#B9B4B4">Aymane Talibi _ 3IIR2</font></h1>
+  </body>
+</html>
